@@ -1,0 +1,13 @@
+[package]
+name = "rustenv_app"
+version = "0.1.0"
+description = "Rust application development environment"
+authors = ["Spectrum Studios"]
+license = "Apache-2.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[dependencies]
+yew = { version = "0.21", features = ["csr"] }

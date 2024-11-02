@@ -1,0 +1,20 @@
+[package]
+name = "rustenv_frontend"
+version = "0.1.0"
+description = "Rust application development environment"
+authors = ["Spectrum Studios"]
+license = "Apache-2.0"
+edition = "2021"
+
+[dependencies]
+console_log = "1"
+console_error_panic_hook = "0.1.7"
+js-sys = "0.3"
+log = "0.4.22"
+serde = { version = "1", features = ["derive"] }
+serde-wasm-bindgen = "0.6"
+wasm-bindgen = "0.2"
+wasm-bindgen-futures = "0.4"
+yew = { version = "0.21", features = ["csr"] }
+
+rustenv_app = { path = "../app" }
