@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "angelo-breuer.clock",
+        "EditorConfig.EditorConfig",
+        "fill-labs.dependi",
+        "ms-azuretools.vscode-docker",
+        "rust-lang.rust-analyzer",
+        "vadimcn.vscode-lldb"
+    ]
+}
