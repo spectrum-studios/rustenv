@@ -1,2 +1,6 @@
+# General
 **/dist
 **/target
+
+# Tauri
+tauri/gen/schemas

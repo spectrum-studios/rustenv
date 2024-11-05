@@ -7,7 +7,11 @@ apt-get install -y \
     git \
     gnupg2 \
     jq \
+    libayatana-appindicator3-dev \
+    librsvg2-dev \
     libssl-dev \
+    libwebkit2gtk-4.1-dev \
+    libxdo-dev \
     openssl \
     pkg-config \
     sudo \
@@ -29,3 +33,4 @@ rustup target add wasm32-unknown-unknown
 
 # cargo
 cargo install trunk
+cargo install tauri-cli

@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = [
+    "./app",
+    "./backend",
+    "./frontend",
+    "./server",
+    "./tauri",
+]

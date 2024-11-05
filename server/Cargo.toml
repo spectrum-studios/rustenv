@@ -1,0 +1,17 @@
+[package]
+name = "rustenv_server"
+version = "0.1.0"
+description = "Rust application development environment"
+authors = ["Spectrum Studios"]
+license = "Apache-2.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.7.7", features = ["ws"] }
+dotenv = "0.15.0"
+http = "1.1.0"
+serde = { version = "1.0.214", features = ["derive"] }
+serde_json = "1.0.132"
+tokio = { version = "1.41.0", features = ["full"] }
+tower = "0.5.1"
+tower-http = { version = "0.6.1", features = ["cors"] }
