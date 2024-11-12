@@ -12,11 +12,19 @@ apt-get install -y \
     libssl-dev \
     libwebkit2gtk-4.1-dev \
     libxdo-dev \
+    locales \
     openssl \
     pkg-config \
     sudo \
     wget \
     zsh
+
+# locale
+sed -i 's/^# *\(en_US.UTF-8\)/\1/' /etc/locale.gen
+locale-gen
+echo "export LC_ALL=en_US.UTF-8" >> ~/.bashrc
+echo "export LANG=en_US.UTF-8" >> ~/.bashrc
+echo "export LANGUAGE=en_US.UTF-8" >> ~/.bashrc
 
 # zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

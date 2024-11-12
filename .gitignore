@@ -4,3 +4,5 @@
 
 # Tauri
 tauri/gen/schemas
+tauri/icons
+!tauri/icons/icon.png
