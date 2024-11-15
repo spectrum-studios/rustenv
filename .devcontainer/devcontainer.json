@@ -18,5 +18,9 @@
                 "terminal.integrated.defaultProfile.linux": "zsh"
             }
         }
+    },
+    "postAttachCommand": {
+        "icon": "cargo-tauri icon tauri/icons/icon.png",
+        "build": "cargo build"
     }
 }
