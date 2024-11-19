@@ -9,6 +9,7 @@
                 "fill-labs.dependi",
                 "ms-azuretools.vscode-docker",
                 "rust-lang.rust-analyzer",
+                "tauri-apps.tauri-vscode",
                 "vadimcn.vscode-lldb"
             ],
             "settings": {
@@ -21,6 +22,7 @@
     },
     "postAttachCommand": {
         "icon": "cargo-tauri icon tauri/icons/icon.png",
+        "forward": "echo \"export DISPLAY=host.docker.internal:0\" >> /etc/profile",
         "build": "cargo build"
     }
 }

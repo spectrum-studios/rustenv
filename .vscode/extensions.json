@@ -5,6 +5,7 @@
         "fill-labs.dependi",
         "ms-azuretools.vscode-docker",
         "rust-lang.rust-analyzer",
+        "tauri-apps.tauri-vscode",
         "vadimcn.vscode-lldb"
     ]
 }
