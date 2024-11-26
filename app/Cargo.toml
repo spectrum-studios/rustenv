@@ -11,3 +11,4 @@ crate-type = ["staticlib", "cdylib", "rlib"]
 
 [dependencies]
 yew = { version = "0.21.0", features = ["csr"] }
+yew-router = "0.18.0"

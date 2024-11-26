@@ -2,6 +2,7 @@
     "clock.alignment": "Right",
     "clock.priority": -1,
     "editor.formatOnSave": true,
+    "rust-analyzer.checkOnSave": false,
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.defaultProfile.windows": "zsh"
