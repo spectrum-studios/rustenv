@@ -4,7 +4,6 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "angelo-breuer.clock",
                 "EditorConfig.EditorConfig",
                 "fill-labs.dependi",
                 "ms-azuretools.vscode-docker",
@@ -13,8 +12,6 @@
                 "vadimcn.vscode-lldb"
             ],
             "settings": {
-                "clock.alignment": "Right",
-                "clock.priority": -1,
                 "editor.formatOnSave": true,
                 "rust-analyzer.checkOnSave": false,
                 "terminal.integrated.defaultProfile.linux": "zsh"
@@ -24,6 +21,6 @@
     "postAttachCommand": {
         "icon": "cargo-tauri icon tauri/icons/icon.png",
         "forward": "echo \"export DISPLAY=host.docker.internal:0\" >> /etc/profile",
-        "build": "sh -c \"if [ ! -d \"target\" ]; then cargo build; fi\""
+        "build": "sh -c \"if [ ! -d \"target\" ]; then cargo build; fi\" || true"
     }
 }
